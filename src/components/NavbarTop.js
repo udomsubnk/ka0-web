@@ -3,8 +3,10 @@ class NavbarTop extends Component{
 	render(){
 		return(
 			<div id="NavbarTop">
-				<div>ka0</div>
-				<div></div>
+				<div className="NavbarTop-logo">ka0</div>
+				<div className="NavbarTop-hamburger right">
+					<span>HBG</span>
+				</div>
 			</div>
 		);
 	}
