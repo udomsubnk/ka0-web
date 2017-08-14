@@ -32,14 +32,3 @@
 	margin-top: 50px;
 	height: 1000px;
 }
-.hide{
-	display: none;
-}
-.flex-all-center{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-}
-.flex-direct-column{
-	flex-direction: column;
-}

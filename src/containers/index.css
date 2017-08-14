@@ -4,3 +4,14 @@ body {
   font: 16px/30px 'Avenir', Arial, sans-serif;
   background-color: #E1FF58;
 }
+.hide{
+	display: none;
+}
+.flex-all-center{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.flex-direct-column{
+	flex-direction: column;
+}
