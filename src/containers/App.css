@@ -7,13 +7,11 @@
 }
 #NavbarTop .logo-block{
 	display: flex;
-	flex-direction: column;
 	height: 40px;
 	margin-top: 10px;
 }
 #NavbarTop .logo{
 	height: 37px;
-	flex-direction: column;
   	color: #fff;
 }
 #NavbarTop i{
@@ -41,4 +39,7 @@
 	display: flex;
 	justify-content: center;
 	text-align: center;
+}
+.flex-direct-column{
+	flex-direction: column;
 }

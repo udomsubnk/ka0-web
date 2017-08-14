@@ -16,8 +16,8 @@ class NavbarTop extends Component{
 
 	render(){
 		return(
-			<div id="NavbarTop" className="hidden-md-up flex-all-center">
-				<div className="logo-block flex-all-center" onClick={this.toggleMenu}>
+			<div id="NavbarTop" className="hidden-md-up flex-all-center flex-direct-column">
+				<div className="logo-block flex-all-center flex-direct-column" onClick={this.toggleMenu}>
 					<div className="logo">I&apos;m Ka0</div>
 					<i className={this.state.isMenuClick?'hide':'fa fa-caret-down'}></i>
 				</div>
