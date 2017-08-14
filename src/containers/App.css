@@ -4,9 +4,6 @@
 	width: 100vw;
 	height: 50px;
 	background-color: #000;
-	display: flex;
-	justify-content: center;
-	text-align: center;
 }
 #NavbarTop .logo-block{
 	display: flex;
@@ -16,9 +13,6 @@
 }
 #NavbarTop .logo{
 	height: 37px;
-	display: flex;
-	justify-content: center;
-  	text-align: center;
 	flex-direction: column;
   	color: #fff;
 }
@@ -44,5 +38,7 @@
 	display: none;
 }
 .flex-all-center{
-
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
