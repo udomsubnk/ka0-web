@@ -29,3 +29,12 @@
 	height: 15px;
 	color: #777;
 }
+#NavbarTop .close-button{
+	position: absolute;
+	left: calc(100% - 30px);
+	height: 40px;
+	margin-top: 15px;
+}
+.hide{
+	display: none;
+}
