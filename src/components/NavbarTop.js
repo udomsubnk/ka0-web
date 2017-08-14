@@ -3,9 +3,9 @@ class NavbarTop extends Component{
 	render(){
 		return(
 			<div id="NavbarTop">
-				<div className="button">
-					<div className="logo">Ka0-Logo</div>
-					<div className="down"></div>
+				<div className="logo-block">
+					<div className="images">I&apos;m Ka0</div>
+					<div className="down-symbol"></div>
 				</div>
 			</div>
 		);
