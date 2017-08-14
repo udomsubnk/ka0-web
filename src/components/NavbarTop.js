@@ -4,8 +4,8 @@ class NavbarTop extends Component{
 		return(
 			<div id="NavbarTop">
 				<div className="logo-block">
-					<div className="images">I&apos;m Ka0</div>
-					<div className="down-symbol"></div>
+					<div className="logo">I&apos;m Ka0</div>
+					<i className="fa fa-caret-down"></i>
 				</div>
 			</div>
 		);
