@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'containers/App.css';
 import NavbarTop from 'components/NavbarTop'
+import NavFull from 'components/NavFull'
 import AppBody from 'components/AppBody'
 
 class App extends Component {
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div>
         <NavbarTop></NavbarTop>
+        <NavFull></NavFull>
         <AppBody></AppBody>
       </div>
     );
