@@ -1,11 +1,9 @@
-#AppBody{
-	background-color: green;
-	border: 1px solid black;
-	height: 200px;
-}
 #NavbarTop{
-	background-color: #000;
+	position: fixed;
+	top: 0;
+	width: 100vw;
 	height: 50px;
+	background-color: #000;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -20,8 +18,8 @@
 	height: 37px;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
   	text-align: center;
+	flex-direction: column;
   	color: #fff;
 }
 #NavbarTop i{
@@ -36,6 +34,15 @@
 	width: 50px;
 	padding-top: 12px;
 }
+#AppBody{
+	background-color: green;
+	border: 1px solid black;
+	margin-top: 50px;
+	height: 1000px;
+}
 .hide{
 	display: none;
+}
+.flex-all-center{
+
 }
