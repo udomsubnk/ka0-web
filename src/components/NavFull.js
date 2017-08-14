@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 class NavFull extends Component{
 	render(){
 		return (
-			<div id="NavFull"></div>
+			<div id="NavFull">
+				
+			</div>
 		);
 	}
 }

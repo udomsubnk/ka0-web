@@ -26,6 +26,15 @@
 	width: 50px;
 	padding-top: 12px;
 }
+#NavFull{
+	position: fixed;
+	top: 50px;
+	height: calc(100vh - 50px);
+	width: 100vw;
+	background-color: #000;
+}
+
+
 #AppBody{
 	background-color: green;
 	border: 1px solid black;
