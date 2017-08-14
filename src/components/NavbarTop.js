@@ -13,10 +13,10 @@ class NavbarTop extends Component{
 			isMenuClick : !prevState.isMenuClick
 		}));
 	}
-	
+
 	render(){
 		return(
-			<div id="NavbarTop">
+			<div id="NavbarTop" className="hidden-md-up">
 				<div className="logo-block" onClick={this.toggleMenu}>
 					<div className="logo">I&apos;m Ka0</div>
 					<i className={this.state.isMenuClick?'hide':'fa fa-caret-down'}></i>
