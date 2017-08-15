@@ -14,12 +14,13 @@ class NavbarTop extends Component{
 		this.setState((prevState)=>({
 			isMenuClick : !prevState.isMenuClick
 		}));
+		alert()
 	}
 
 	render(){
 		return(
 			<div>
-		        <NavFull></NavFull>
+		        <NavFull isMenuClick={this.state.isMenuClick} toggleMenu={this.toggleMenu}></NavFull>
 				<div id="NavbarTop" className="hidden-md-up flex-all-center flex-direct-column">
 					<div className="logo-block flex-all-center flex-direct-column" onClick={this.toggleMenu}>
 						<div className="logo">I&apos;m Ka0</div>
