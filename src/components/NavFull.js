@@ -3,7 +3,7 @@ class NavFull extends Component{
 	constructor(props){
 		super(props);
 		this.state = {
-			isNavFullOpened : true
+			isNavFullOpened : false
 		}
 		this.toggleNavFull = this.toggleNavFull.bind(this);
 	}
@@ -16,7 +16,7 @@ class NavFull extends Component{
 
 	render(){
 		return (
-			<div id="NavFull" className={this.state.isNavFullOpened?'':'hide'}>
+			<div id="NavFull" hidden={!this.state.isNavFullOpened}>
 				<div className="close-button flex-all-center" onClick={this.toggleNavFull}>
 					<i className="fa fa-times"></i>
 				</div>
