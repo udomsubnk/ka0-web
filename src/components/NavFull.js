@@ -3,7 +3,7 @@ class NavFull extends Component{
 	render(){
 		return (
 			<div id="NavFull">
-				<div className='close-button'>
+				<div className="close-button flex-all-center">
 					<i className="fa fa-times"></i>
 				</div>
 			</div>
