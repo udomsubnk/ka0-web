@@ -15,3 +15,12 @@ body {
 .flex-direct-column{
 	flex-direction: column;
 }
+
+@keyframes translateY100{
+	from{
+		transform: translateY(-110%);
+	}
+	to{
+		transform: translateY(0%);
+	}
+}
