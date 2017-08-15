@@ -11,6 +11,7 @@ body {
 	display: flex;
 	justify-content: center;
 	text-align: center;
+	align-items: center;
 }
 .flex-direct-column{
 	flex-direction: column;

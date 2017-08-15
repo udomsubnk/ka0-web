@@ -5,16 +5,16 @@
 	height: 50px;
 	background-color: #000;
 }
-#NavbarTop .logo-block{
+#NavbarTop > .logo-block{
 	display: flex;
 	height: 40px;
 	margin-top: 10px;
 }
-#NavbarTop .logo{
+#NavbarTop > .logo-block > .logo{
 	height: 37px;
   	color: #fff;
 }
-#NavbarTop i{
+#NavbarTop > .logo-block > i{
 	margin-top: -12px;
 	height: 15px;
 	color: #777;
@@ -25,9 +25,19 @@
 	height: calc(100vh - 50px);
 	width: 100vw;
 	background-color: #000;
+	padding: 10px 30px 30px 30px;
 	animation: translateY100 0.25s ease-out;
 }
-
+#NavFull > .profile{
+	height: 30%;
+	width: 100%;
+	background-color: white;
+}
+#NavFull > .menu{
+	height: 70%;
+	width: 100%;
+	background-color: yellow;
+}
 
 #AppBody{
 	background-color: green;
