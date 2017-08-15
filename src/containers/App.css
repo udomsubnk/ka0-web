@@ -19,19 +19,19 @@
 	height: 15px;
 	color: #777;
 }
-#NavbarTop .close-button{
-	position: absolute;
-	left: calc(100% - 50px);
-	height: 50px;
-	width: 50px;
-	padding-top: 12px;
-}
 #NavFull{
 	position: fixed;
 	top: 50px;
 	height: calc(100vh - 50px);
 	width: 100vw;
 	background-color: #000;
+}
+#NavFull .close-button{
+	position: absolute;
+	left: calc(100% - 50px);
+	height: 50px;
+	width: 50px;
+	padding-top: 12px;
 }
 
 

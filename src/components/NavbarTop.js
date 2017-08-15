@@ -21,9 +21,6 @@ class NavbarTop extends Component{
 					<div className="logo">I&apos;m Ka0</div>
 					<i className={this.state.isMenuClick?'fa':'fa fa-caret-down'}></i>
 				</div>
-				<div className={this.state.isMenuClick?'close-button':'hide'} onClick={this.toggleMenu}>
-					<i className="fa fa-times"></i>
-				</div>
 			</div>
 		);
 	}
