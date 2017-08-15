@@ -14,7 +14,6 @@ class NavbarTop extends Component{
 		this.setState((prevState)=>({
 			isMenuClick : !prevState.isMenuClick
 		}));
-		alert()
 	}
 
 	render(){
