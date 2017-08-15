@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import NavFull from 'components/NavFull'
+
 class NavbarTop extends Component{
 	constructor(props) {
 		super(props);
@@ -16,10 +18,13 @@ class NavbarTop extends Component{
 
 	render(){
 		return(
-			<div id="NavbarTop" className="hidden-md-up flex-all-center flex-direct-column">
-				<div className="logo-block flex-all-center flex-direct-column" onClick={this.toggleMenu}>
-					<div className="logo">I&apos;m Ka0</div>
-					<i className='fa fa-caret-down'></i>
+			<div>
+		        <NavFull></NavFull>
+				<div id="NavbarTop" className="hidden-md-up flex-all-center flex-direct-column">
+					<div className="logo-block flex-all-center flex-direct-column" onClick={this.toggleMenu}>
+						<div className="logo">I&apos;m Ka0</div>
+						<i className='fa fa-caret-down'></i>
+					</div>
 				</div>
 			</div>
 		);
