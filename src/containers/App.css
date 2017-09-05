@@ -29,10 +29,10 @@
 	animation: translateY100 0.25s ease-out;
 }
 #NavFull > .profile{
-	height: 40%;
+	height: 200px;
 	width: 100%;
+	min-height: 200px;
 	min-width: 260px;
-	min-height: 180px;
 }
 #NavFull > .profile > .avatar{
 	height: 100px;
@@ -44,14 +44,17 @@
 }
 #NavFull > .profile > .detail{
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 10px;
 	color: #ccc;
 }
+#NavFull > .profile > .social{
+
+}
 #NavFull > .menu{
-	height: 60%;
+	flex:1;
 	width: 100%;
 	min-width: 260px;
-	background-color: yellow;
+	background-color: white;
 }
 
 #AppBody{

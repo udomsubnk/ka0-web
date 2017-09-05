@@ -9,8 +9,19 @@ class NavFull extends Component{
 						<section className="uppercase white">udomsub naikorn [ kao ]</section>
 						<section className="mgt-5px">Learner/Developer</section>
 					</div>
+					<div className="social">
+						<a href="https://www.facebook.com/udomsub.nk" target="_blank">
+							<img src="facebook.png" alt="facebook" height="30px"/>
+						</a>
+						<a href="https://www.linkedin.com/in/udomsubnk" target="_blank" style={{marginLeft:'10px',marginRight:'10px'}}>
+							<img src="linkedin.png" alt="linkedin" height="30px"/>
+						</a>
+						<a href="https://github.com/udomsubnk" target="_blank">
+							<img src="github.png" alt="github" height="30px"/>
+						</a>
+					</div>
 				</div>
-				<div className="menu"></div>
+				<div className="menu flex-all-center flex-direct-column"></div>
 
 			</div>
 		);
