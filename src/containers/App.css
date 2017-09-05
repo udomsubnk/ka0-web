@@ -15,7 +15,7 @@
   	color: #fff;
 }
 #NavbarTop > .logo-block > i{
-	margin-top: -12px;
+	margin-top: -15px;
 	height: 15px;
 	color: #777;
 }
@@ -29,13 +29,28 @@
 	animation: translateY100 0.25s ease-out;
 }
 #NavFull > .profile{
-	height: 30%;
+	height: 40%;
 	width: 100%;
-	background-color: white;
+	min-width: 260px;
+	min-height: 180px;
+}
+#NavFull > .profile > .avatar{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-image: url('../images/kao.jpg');
+	background-size: 220px;
+	background-position: -55px -5px;
+}
+#NavFull > .profile > .detail{
+	width: 100%;
+	height: 100px;
+	background-color: green;
 }
 #NavFull > .menu{
-	height: 70%;
+	height: 60%;
 	width: 100%;
+	min-width: 260px;
 	background-color: yellow;
 }
 
