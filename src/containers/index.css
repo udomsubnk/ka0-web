@@ -16,7 +16,15 @@ body {
 .flex-direct-column{
 	flex-direction: column;
 }
-
+.uppercase{
+	text-transform: uppercase;
+}
+.white{
+	color: white;
+}
+.mgt-5px{
+	margin-top: -5px;
+}
 @keyframes translateY100{
 	from{
 		transform: translateY(-110%);

@@ -44,8 +44,8 @@
 }
 #NavFull > .profile > .detail{
 	width: 100%;
-	height: 100px;
-	background-color: green;
+	margin-top: 20px;
+	color: #ccc;
 }
 #NavFull > .menu{
 	height: 60%;
